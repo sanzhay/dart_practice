@@ -52,7 +52,7 @@ void main(List<String> args) {
       break;
     } else if (int.parse(myNum!) > num) {
       print('less');
-    } else if (int.parse(myNum!) < num) {
+    } else if (int.parse(myNum) < num) {
       print('greater');
     }
   }
